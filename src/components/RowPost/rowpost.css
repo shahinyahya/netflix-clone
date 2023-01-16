@@ -1,0 +1,31 @@
+.rowpost {
+  color: white;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.posters {
+  display: flex;
+  margin-top: 10px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
+
+.posters::-webkit-scrollbar {
+  display: none;
+}
+
+.poster {
+  scroll-snap-align: start;
+  max-height: 250px;
+  margin-right: 20px;
+  object-fit: cover;
+}
+
+.smallposter {
+  max-height: 150px;
+  margin-right: 10px;
+  object-fit: cover;
+}

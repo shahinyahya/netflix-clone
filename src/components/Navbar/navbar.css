@@ -1,0 +1,25 @@
+.header {
+  height: 70px;
+  background-color: #111;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  top: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.logo {
+  width: 80px;
+  margin-left: 40px;
+}
+
+.avatar {
+  width: 30px;
+  margin-right: 40px;
+}
