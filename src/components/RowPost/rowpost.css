@@ -22,10 +22,23 @@
   max-height: 250px;
   margin-right: 20px;
   object-fit: cover;
+  cursor: pointer;
+  transition: 250ms ease;
+}
+
+.poster:hover {
+  scale: 0.89;
+}
+
+.smallposter:hover {
+  scale: 0.89;
 }
 
 .smallposter {
+  scroll-snap-align: start;
   max-height: 150px;
   margin-right: 10px;
   object-fit: cover;
+  cursor: pointer;
+  transition: 250ms ease;
 }
